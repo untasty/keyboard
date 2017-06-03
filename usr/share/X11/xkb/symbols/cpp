@@ -13,7 +13,7 @@ xkb_symbols "dvorak" {
 
     // Alphanumeric section
 
-    key <TLDE> { [     asciicircum,         degree                                     ] };
+    key <TLDE> { [     asciicircum,         degree,   dead_circumflex,    dead_cedilla ] };
     key <AE01> { [          exclam,              1,       onesuperior                  ] };
     key <AE02> { [           slash,              2,       twosuperior,         onehalf ] };
     key <AE03> { [             bar,              3,     threesuperior,   threequarters ] };
@@ -25,7 +25,7 @@ xkb_symbols "dvorak" {
     key <AE09> { [      parenright,              9                                     ] };
     key <AE10> { [               0,              0                                     ] };
     key <AE11> { [        quotedbl,     apostrophe,             acute,           grave ] };
-    key <AE12> { [       backslash,     asciitilde                                     ] };
+    key <AE12> { [       backslash,     asciitilde,        dead_acute,      dead_grave ] };
 
     key <AD01> { [       semicolon,         dollar                                     ] };
     key <AD02> { [           comma,     apostrophe,             grave                  ] };
